@@ -6,17 +6,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "@trustpair/design-system.themes.tailwind": "^0.0.20",
+    "@trustpair/design-system.ui.data-display.listbox": "^0.0.14",
+    "@trustpair/design-system.ui.data-display.tooltip": "^0.0.15",
     "date-fns": "^2.29.1",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
     "@types/node": "^18.7.1",
     "@types/react": "^18.0.17",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "2.1.2",
     "typescript": "^4.7.4"
   }
 }
